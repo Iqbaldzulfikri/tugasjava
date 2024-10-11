@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
 public class GanjilGenap {
+
     public static void main(String[] args) {
+    
         Scanner input = new Scanner(System.in);
 
         System.out.println("=== Menentukan Bilangan Ganjil Genap === ");
         System.out.print("Masukkan sebuah angka: ");
         int angka = input.nextInt();
-
+        
         if (angka % 2 == 0) {
             System.out.println(angka + " adalah bilangan genap.");
         } else {
@@ -22,7 +24,9 @@ public class GanjilGenap {
 import java.util.Scanner;
 
 public class MenentukanLulus {
+
     public static void main(String[] args) {
+    
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Menentukan Lulus ===");
 
@@ -47,7 +51,9 @@ public class MenentukanLulus {
 import java.util.Scanner;
 
 public class MenentukanGrade {
+
     public static void main(String[] args) {
+    
         Scanner scanner = new Scanner(System.in);
         System.out.println("===== Menentukan Grade =====");
 
@@ -77,7 +83,9 @@ public class MenentukanGrade {
 import java.util.Scanner;
 
 public class PecahanUang {
+
     public static void main(String[] args) {
+    
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Menghitung Pecahan uang === ");
 
@@ -148,7 +156,9 @@ public class PecahanUang {
 import java.util.Scanner;
 
 public class Jeruk {
+
     public static void main(String[] args) {
+    
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== Menghitung Harga Jeruk === ");
 
